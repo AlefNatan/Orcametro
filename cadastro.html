@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orçametro - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="Cadastro.css">
+    <script type="text/javascript" src="Cadastro.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <img src="imagem/orçametro.png" alt="Orçametro">
+      <div>
+        <button class="SingIn" onclick="window.location.href='login.html'">Sign In</button>
+      </div>
+    </header>
+
+    <main>
+      <h1>Cadastre-se</h1>
+      <div class="form">
+        <div class="switch">
+          <input type="checkbox" id="toggle">
+          <label for="toggle"></label>
+          <span class="left">Pessoa Física</span>
+          <span class="right">Pessoa Jurídica</span>
+        </div>
+      
+        <div class="form-fields">
+          <input type="text" id="nome" placeholder="Nome">
+          <input type="text" placeholder="E-mail">
+          <input type="password" placeholder="Senha">
+          <input type="text" id="cpf" placeholder="CPF">
+          <input type="text" placeholder="Telefone">
+          <input type="text" id="cep"placeholder="CEP">
+          <input type="text" placeholder="Número do Endereço">
+        </div>
+
+        <button type="submit" onclick="window.location.href='login.html'" >Salvar</button>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Alef Soluções © 2023</p>
+    </footer>
+  </body>
+</html>

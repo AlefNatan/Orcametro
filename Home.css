@@ -1,0 +1,133 @@
+/* estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  /* estilo da imagem no cabeçalho */
+  header img {
+    height: 40px;
+  }  
+  /* estilo do corpo */
+  main {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1{
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    left: 3%;
+    top: 110px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #2541B2;
+    text-align: left;
+  }
+
+  button[type="submit"] {
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    right: -3%;
+    transform: translateX(-50%);
+    top: 114px;
+    background: #16B6B0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+  }
+
+  .table-container {
+    max-height: 360px;
+    overflow-y: auto; 
+    margin-top: 80px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+  }
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #d3d3d3;
+  }
+  
+  .table-container::-webkit-scrollbar {
+    width: 8px;
+    margin-right: 8px;
+    height: 100px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .table-container::-webkit-scrollbar-track {
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  tr img{
+    padding-left: 10px;
+    width: 25px;
+    height: 25px;
+    border-right: 44px;
+    padding-right: 5px;
+  }
+/* estilo do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }

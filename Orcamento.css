@@ -1,0 +1,547 @@
+/* estilo do cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+/* estilo da imagem no cabeçalho */
+header img {
+  height: 40px;
+}
+/* estilo do corpo */
+main {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.card {
+  width: 900px;
+  height: 1275px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.data {
+  position: absolute;
+  width: 283px;
+  height: 23px;
+  left: 317px;
+  top: 90px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+.texto1 {
+  position: absolute;
+  width: 151px;
+  height: 23px;
+  left: 914px;
+  top: 90px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.NomeE-input {
+  position: absolute;
+  width: 250px;
+  height: 18px;
+  left: 312px;
+  top: 166px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 4px;
+  font-size: 24px;
+  outline: none; /* Adicionando essa linha */
+}
+
+
+.DadosClientes {
+  position: absolute;
+  width: 81px;
+  height: 80px;
+  left: 317px;
+  top: 181px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.DadosClientesCam {
+  position: absolute;
+  width: 160px;
+  height: 8px;
+  left: 402px;
+  background: #FFFFFF;
+  border: none;
+  padding: 4px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.6;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+#T1 {
+  /* Estilos para o campo de telefone */
+  top: 196px;
+}
+
+#C1 {
+  /* Estilos para o campo de CNPJ */
+  top: 216px;
+}
+
+#E1 {
+  /* Estilos para o campo de email */
+  top: 236px;
+}
+
+#A1 {
+  /* Estilos para o campo de endereço */
+  top: 256px;
+}
+.proposta-servicos {
+  position: absolute;
+  width: 791px;
+  height: 50px;
+  left: 317px;
+  top: 284px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+}
+.QDUT {
+  position: absolute;
+  width: 185px;
+  height: 24px;
+  top: 402px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+#quantidade {
+  left: 277px;
+}
+
+#descricao {
+  left: 552px;
+}
+
+#unitario {
+  left: 792px;
+}
+
+#total {
+  left: 932px;
+}
+.row {
+  position: absolute;
+  width: 844.5px;
+  height: 1px;
+  left: 249.5px;
+  background-color: #000000;
+}
+#row1 {
+  top: 450px;
+}
+#row2 {
+  top: 492px;
+  opacity: 0.3;
+}
+#row3 {
+  top: 534px;
+  opacity: 0.3;
+}
+#row4 {
+  top: 576px;
+  opacity: 0.3;
+}
+#row5 {
+  top: 622px;
+  opacity: 0.3;
+}
+#row6 {
+  top: 664px;
+  opacity: 0.3;
+}
+#row7 {
+  top: 706px;
+  opacity: 0.3;
+}
+#row8 {
+  top: 748px;
+  opacity: 0.3;
+}
+#row9 {
+  top: 790px;
+  opacity: 0.3;
+}
+#row10 {
+  top: 832px;
+}
+#row11{
+  top: 853px;
+}
+.row12{
+position: absolute;
+width: 325.5px;
+height: 1px;
+left: 769.5px;
+top: 876px;
+background-color: #000000;
+}
+.row13{
+position: absolute;
+width: 325.5px;
+height: 1px;
+left: 769.5px;
+top: 899px;
+background-color: #000000;
+}
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 455px;
+  width: 790px;
+  left: 335px;
+  height: 30px;
+}
+.container input {
+  margin-right: 30px;
+}
+.container .p{
+  width: 75px;
+  margin-left: 25px;
+  text-align: right;
+}
+.container img{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.input1 {
+  width: 60px;
+  text-align: center;
+}
+
+.input2 {
+  width: 398px;
+  margin-right: 11px;
+}
+
+.input3 {
+  width: 60px;
+  text-align: center;
+  margin-left: -20px;
+}
+.container .img{
+  height: 20px;
+  width: 20px;
+  left: 300px;
+  position: absolute;
+  top: 48px;
+}
+#celula1{
+  top: 455px;
+}
+#celula2{
+  top: 498px;
+}
+#celula3{
+  top: 540px;
+}
+#celula4{
+  top: 584px;
+}
+#celula5{
+  top: 628px;
+}
+#celula6{
+  top: 670px;
+}
+#celula7{
+  top: 712px;
+}
+#celula8{
+  top: 754px;
+}
+#celula9{
+  top: 796px;
+}
+
+.hidden {
+  display: none;
+}
+
+.Sub{
+position: absolute;
+width: 85px;
+height: 24px;
+left: 825px;
+top: 810px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.Rs{
+position: absolute;
+width: 26px;
+height: 24px;
+left: 949px;
+top: 810px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+#Rs{
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  left: 949px;
+  top: 833px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+#Rs1{
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  left: 949px;
+  top: 855px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.valor{
+position: absolute;
+width: 58px;
+height: 21px;
+left: 1015px;
+top: 815px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+#val{
+  top: 838px;
+}
+.Des{
+position: absolute;
+width: 77px;
+height: 20px;
+left: 822px;
+top: 855px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+.porc-input{
+  position: absolute;
+  width: 33px;
+  height: 15px;
+  left: 908px;
+  top: 857px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000a6;
+  background: transparent;
+}
+.Tot{
+position: absolute;
+width: 111px;
+height: 24px;
+left: 796px;
+top: 855px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.ValTot{
+position: absolute;
+width: 61px;
+height: 21px;
+left: 1015px;
+top: 861px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+.Especificacoes{
+position: absolute;
+width: 98px;
+height: 80px;
+left: 260px;
+top: 943px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+color: #000000;
+}
+.vector{
+position: absolute;
+width: 1px;
+height: 104px;
+left: 359.5px;
+top: 960px;
+background-color: #000000;
+}
+.EspeciCam{
+  position: absolute;
+  width: 160px;
+  height: 8px;
+  left: 365px;
+  top: 943px;
+  background: #FFFFFF;
+  border: none;
+  padding: 4px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.6;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+#Esp1{
+  top: 960px;
+}
+#Esp2{
+  top: 980px
+}
+#Esp3{
+  top: 1000px;
+}
+#Obs{
+  top: 1020px;
+}
+.LinhaAss{
+position: absolute;
+width: 393px;
+height: 1px;
+left: 252px;
+top: 1149px;
+background-color: #000000;
+}
+#Linha2{
+  left: 702px;
+}
+.NomeAss{
+position: absolute;
+width: 192px;
+height: 36px;
+left: 357px;
+top: 1149px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+#Nome2{
+  left: 743px;
+  width: 317px;
+}
+.NomeUsuario{
+position: absolute;
+width: 270px;
+height: 18px;
+left: 247px;
+top: 1255px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+.DadosUsuario {
+  position: absolute;
+  width: 338px;
+  height: 54px;
+  left: 252px;
+  top: 1270px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-align: left;
+}
+
+/* estilo do rodapé */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

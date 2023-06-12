@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orçametro - Orçamento</title>
+    <link rel="stylesheet" type="text/css" href="Orcamento.css">
+    <script type="text/javascript" src="Orcamento.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <img src="imagem/orçametro.png" alt="Orçametro">
+      <img src="imagem/User-Icon.png.webp" alt="Perfil" onclick="window.location.href='orcamento.html'">
+    </header>
+
+    <main>
+        <div class="card">
+            <p class="data" id="dataAtual"></p>
+            <p class="texto1">ORÇAMENTO N° 1</p>
+
+            <input type="text" class="NomeE-input" placeholder="Nome Cliente/Empresa"/>
+            <p class="DadosClientes">Telefone:<br>Cnpj/Cpf:<br>E-mail:<br>Endereço:</p>
+            <input type="text" class="DadosClientesCam" id="T1" placeholder="(00) 9 0000-0000" />
+            <input type="text" class="DadosClientesCam" id="C1" placeholder="12.345.678/0001-91" />
+            <input type="text" class="DadosClientesCam" id="E1" placeholder="email@gmail.com" />
+            <input type="text" class="DadosClientesCam" id="A1" placeholder="Rua XXX, N° XXX" />
+
+            <p class="proposta-servicos">É com grande satisfação que apresentamos, conforme solicitado, esta proposta de serviços para a vossa apreciação como segue:</p>
+
+            <p id="quantidade" class="QDUT">Quantidade</p>
+            <p id="descricao" class="QDUT">Descrição</p>
+            <p id="unitario" class="QDUT">Unitário</p>
+            <p id="total" class="QDUT">Total</p>
+            <div id="row1" class="row"></div>
+            <div class="container" id="celula1">
+                <input type="text" class="input1" id="input1_1">
+                <input type="text" class="input2"d="input2_1">
+                <input type="text" class="input3" id="input3_1">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" class="hidden" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row2" class="row"></div>
+            <div class="container"  id="celula2">
+                <input type="text" class="input1" id="input1_2">
+                <input type="text" class="input2" id="input2_2">
+                <input type="text" class="input3" id="input3_2">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row3" class="row"></div>
+            <div class="container" id="celula3">
+                <input type="text" class="input1" id="input1_3">
+                <input type="text" class="input2" id="input2_3">
+                <input type="text" class="input3" id="input3_3">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row4" class="row"></div>
+            <div class="container" id="celula4">
+                <input type="text" class="input1"id="input1_4">
+                <input type="text" class="input2" id="input2_4">
+                <input type="text" class="input3" id="input3_4">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row5" class="row"></div>
+            <div class="container" id="celula5">
+                <input type="text" class="input1" id="input1_5">
+                <input type="text" class="input2" d="input2_5">
+                <input type="text" class="input3" id="input3_5">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row6" class="row"></div>
+            <div class="container" id="celula6">
+                <input type="text" class="input1" id="input1_6">
+                <input type="text" class="input2" id="input2_6">
+                <input type="text" class="input3" id="input3_6">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row7" class="row"></div>
+            <div class="container" id="celula7">
+                <input type="text" class="input1"id="input1_7">
+                <input type="text" class="input2"id="input2_7">
+                <input type="text" class="input3"id="input3_7">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row8" class="row"></div>
+            <div class="container" id="celula8">
+                <input type="text" class="input1" id="input1_8">
+                <input type="text" class="input2" id="input2_8">
+                <input type="text" class="input3" id="input3_8">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
+              </div>
+            <div id="row9" class="row"></div>
+            <div class="container" id="celula9">
+                <input type="text" class="input1" id="input1_9">
+                <input type="text" class="input2" id="input2_9">
+                <input type="text" class="input3" id="input3_9">
+                <p class="p"></p>
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" onclick="">
+                <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img hidden" onclick="">
+              </div>
+            <div id="row10" class="row"></div>
+            <p class="Sub">Subtotal:</p>
+            <p class="Rs">R$</p>
+            <p class="valor">442,00</p>
+            <div id="row11" class="row"></div>
+            <div class="Des">Desconto:</div>
+            <input type="text" class="porc-input" placeholder="0%" />
+            <p id="Rs">R$</p>
+            <p class="valor" id="val">0,00</p>
+            <div class="row12"></div>
+            <p class="Tot">Total Geral:</p>
+            <p id="Rs1">R$</p>
+            <p class="ValTot">442,00</p>
+            <div class="row13"></div>
+
+            <p class="Especificacoes">Pagamento:<br>Entrega:<br> Contato:<br>Obs: </p>
+            <div class="vector"></div>
+            <input type="text" class="EspeciCam" id="Esp1"/>
+            <input type="text" class="EspeciCam" id="Esp2"/>
+            <input type="text" class="EspeciCam" id="Esp3"/>
+            <input type="text" class="EspeciCam" id="Obs"/>
+
+            <div class="LinhaAss"></div>
+            <p class="NomeAss">Nome do Usuário</p>
+            <div class="LinhaAss" id="Linha2"></div>
+            <p class="NomeAss" id="Nome2">Autorizo a execussão da proposta acima (Assinatura do cliente)</p>
+            
+            <p class="NomeUsuario">Usuário Ltda. - 05.327.853/0001-15</p>
+            <p class="DadosUsuario">Av. Ayrton Senna, 394 - Ipueiras<br>Fone: (89) 422-5004 - email@gmail.com.br<br>64600-000 Picos (PI)</p></p>
+
+        </div>
+    </main>
+    
+
+    <footer>
+      <p>Desenvolvido por Alef Soluções © 2023</p>
+    </footer>
+  </body>
+</html>
