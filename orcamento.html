@@ -37,7 +37,7 @@
                 <input type="text" class="input2"d="input2_1">
                 <input type="text" class="input3" id="input3_1">
                 <p class="p"></p>
-                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" class="hidden" onclick="">
+                <img src="imagem/icons8-trash-can-50.png" alt="lixeira" class="esp" onclick="">
                 <img src="imagem/icons8-add-50.png" alt="Adicionar" class="img" onclick="">
               </div>
             <div id="row2" class="row"></div>
@@ -114,17 +114,14 @@
               </div>
             <div id="row10" class="row"></div>
             <p class="Sub">Subtotal:</p>
-            <p class="Rs">R$</p>
-            <p class="valor">442,00</p>
+            <p class="valor"></p>
             <div id="row11" class="row"></div>
             <div class="Des">Desconto:</div>
-            <input type="text" class="porc-input" placeholder="0%" />
-            <p id="Rs">R$</p>
-            <p class="valor" id="val">0,00</p>
+            <input type="text" class="porc-input" id="porc-input" onkeypress="return event.charCode >= 48 && event.charCode <= 57" oninput="formatarPorcentagem()" value="0%" />
+            <p class="valor" id="val"></p>
             <div class="row12"></div>
             <p class="Tot">Total Geral:</p>
-            <p id="Rs1">R$</p>
-            <p class="ValTot">442,00</p>
+            <p class="ValTot"></p>
             <div class="row13"></div>
 
             <p class="Especificacoes">Pagamento:<br>Entrega:<br> Contato:<br>Obs: </p>
