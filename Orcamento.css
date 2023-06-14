@@ -297,6 +297,10 @@ background-color: #000000;
   top: 796px;
 }
 
+.esp {
+  display: none !important;
+}
+
 .hidden {
   display: none;
 }
