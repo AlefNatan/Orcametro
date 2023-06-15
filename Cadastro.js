@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   const toggleSwitch = document.getElementById('toggle');
   const nomeInput = document.getElementById('nome');
@@ -17,6 +16,35 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   toggleSwitch.addEventListener('change', alterarPlaceholders);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Função para fazer a busca do CEP
+  function buscarCep() {
+    var cep = document.getElementById("cep").value;
+    var url = "https://viacep.com.br/ws/" + cep + "/json/";
+
+    fetch(url)
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        if (data.erro) {
+          console.log("CEP não encontrado.");
+        } else {
+          console.log("Logradouro:", data.logradouro);
+          console.log("Bairro:", data.bairro);
+          console.log("Cidade:", data.localidade);
+          console.log("Estado:", data.uf);
+        }
+      })
+      .catch(function(error) {
+        console.log("Erro na requisição: " + error.message);
+      });
+  }
+
+  // Associar a função de busca ao evento "blur" do campo de CEP
+  document.getElementById("cep").addEventListener("blur", buscarCep);
 });
 
 
